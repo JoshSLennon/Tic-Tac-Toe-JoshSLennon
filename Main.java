@@ -1,8 +1,3 @@
-// Joshua Lennon
-// 2/12/24
-// Tic Tac Toe Game
-// Period 5
-
 /*
 This project must play Tic-Tac-Toe.
 
@@ -30,6 +25,12 @@ For more in the future and more awesomer...
 4) You can make a new class for a game session as well as a single game
 5) You can make a new class for a turn, or a piece, or a screen painter
 */
+
+// Joshua Lennon
+// 2/12/24
+// Tic Tac Toe Game
+// Period 5
+
 
 import java.util.Arrays;
 import java.util.Random;
