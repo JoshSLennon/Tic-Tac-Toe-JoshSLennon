@@ -4,7 +4,7 @@
 // Period 5
 
 
-import java.util.UUID;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Player{
@@ -13,6 +13,7 @@ public class Player{
   // VARIABLES
   //////////////////////////////////////////////
   private final Scanner scn = new Scanner(System.in);
+  private final Random rand = new Random();
   
   private String username;
 
@@ -38,6 +39,6 @@ public class Player{
   //////////////////////////////////////////////
 
   public String makePlayerCode(){
-    return new UUID().randomUUID().toString();
+    return "" + rand.nextInt(100000000);
   }
 }
