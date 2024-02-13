@@ -41,4 +41,13 @@ public class Player{
   public String makePlayerCode(){
     return "" + rand.nextInt(100000000);
   }
+
+  public String getUsername() {
+	 return username;
+  }
+
+  public String getPlayerCode() {
+	 return playerCode;
+  }
+  
 }
